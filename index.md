@@ -72,7 +72,7 @@ This block includes the Humanitix registration widget if
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
 
-<iframe id="iframe-container" src="https://events.humanitix.com/{{page.humanitix}}/tickets" width="100%" height="600px" scrolling="auto" frameborder="0"></iframe>  
+<iframe id="iframe-container" src="https://events.humanitix.com/{{page.humanitix}}/tickets" width="90%" height="600px" scrolling="auto" frameborder="0"></iframe>  
 
 
 {% endif %}
