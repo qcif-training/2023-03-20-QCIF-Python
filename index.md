@@ -73,13 +73,6 @@ displayed if the 'eventbrite' field in the header is not set.
 {% if page.eventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
 
 <iframe id="iframe-container" src="https://events.humanitix.com/{{page.humanitix}}/tickets" width="100%" height="600px" scrolling="auto" frameborder="0"></iframe>  
 
